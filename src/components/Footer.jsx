@@ -33,9 +33,9 @@ const Footer = () => {
         {/* Logo Section */}
         <div className="flex justify-center mb-12">
           <div className="text-center">
-            <Droplet className="h-16 w-16 text-[#C6A052] mx-auto transform rotate-180" />
-            <h2 className="text-2xl font-semibold text-[#C6A052] mt-2">STRILHEREZH</h2>
-            <p className="text-sm text-[#C6A052]">Distillerie bretonne</p>
+            <Droplet className="h-16 w-16 text-[#E0AA3E] mx-auto transform rotate-180" />
+            <h2 className="text-2xl font-semibold text-[#E0AA3E] mt-2">STRILHEREZH</h2>
+            <p className="text-sm text-[#E0AA3E]">Distillerie bretonne</p>
           </div>
         </div>
 
@@ -43,13 +43,13 @@ const Footer = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
           {footerLinks.map((column) => (
             <div key={column.title}>
-              <h3 className="text-sm font-semibold text-[#C6A052] tracking-wider uppercase mb-4">
+              <h3 className="text-sm font-semibold text-[#E0AA3E] tracking-wider uppercase mb-4">
                 {column.title}
               </h3>
               <ul className="space-y-3">
                 {column.links.map((link) => (
                   <li key={link}>
-                    <a href="#" className="text-sm text-gray-600 hover:text-[#C6A052] transition-colors">
+                    <a href="#" className="text-sm text-gray-600 hover:text-[#E0AA3E] transition-colors">
                       {link}
                     </a>
                   </li>
@@ -62,26 +62,26 @@ const Footer = () => {
         <div className="mt-12 border-t border-gray-200 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <nav className="flex space-x-4 md:space-x-6 mb-4 md:mb-0">
-              <a href="#" className="text-sm text-gray-500 hover:text-[#C6A052]">CGU</a>
-              <a href="#" className="text-sm text-gray-500 hover:text-[#C6A052]">CGV</a>
-              <a href="#" className="text-sm text-gray-500 hover:text-[#C6A052]">Politique de confidentialité</a>
-              <a href="#" className="text-sm text-gray-500 hover:text-[#C6A052]">Mentions légales</a>
+              <a href="#" className="text-sm text-gray-500 hover:text-[#E0AA3E]">CGU</a>
+              <a href="#" className="text-sm text-gray-500 hover:text-[#E0AA3E]">CGV</a>
+              <a href="#" className="text-sm text-gray-500 hover:text-[#E0AA3E]">Politique de confidentialité</a>
+              <a href="#" className="text-sm text-gray-500 hover:text-[#E0AA3E]">Mentions légales</a>
             </nav>
 
             <div className="flex space-x-6">
-              <a href="#" className="text-gray-400 hover:text-[#C6A052]">
+              <a href="#" className="text-gray-400 hover:text-[#E0AA3E]">
                 <span className="sr-only">Facebook</span>
                 <Facebook className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-[#C6A052]">
+              <a href="#" className="text-gray-400 hover:text-[#E0AA3E]">
                 <span className="sr-only">Instagram</span>
                 <Instagram className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-[#C6A052]">
+              <a href="#" className="text-gray-400 hover:text-[#E0AA3E]">
                 <span className="sr-only">Twitter</span>
                 <Twitter className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-[#C6A052]">
+              <a href="#" className="text-gray-400 hover:text-[#E0AA3E]">
                 <span className="sr-only">LinkedIn</span>
                 <Linkedin className="h-6 w-6" />
               </a>
